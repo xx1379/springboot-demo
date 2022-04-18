@@ -6,7 +6,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.2</version>
+        <version>2.6.4</version>
     </parent>
 
     <groupId>com.xk</groupId>
@@ -15,8 +15,14 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>demo-banner</module>
-        <module>demo-redis</module>
+        <module>demo-redis-jedis</module>
+        <module>demo-redis-lettuce</module>
+        <module>demo-redis-redisson</module>
     </modules>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
 
     <dependencies>
         <dependency>
