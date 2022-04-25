@@ -18,6 +18,7 @@
         <module>demo-redis-jedis</module>
         <module>demo-redis-lettuce</module>
         <module>demo-redis-redisson</module>
+        <module>demo-kafka</module>
     </modules>
 
     <properties>

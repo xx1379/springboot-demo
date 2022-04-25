@@ -1,20 +1,19 @@
-package com.xk.redis.pojo;
+package com.xk.kafka.po;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.io.Serializable;
-
 /**
  * @Author Ke Xiao <xiaokexkxk@126.com>
- * @Date 2022/1/13 23:10
+ * @Date 2022/4/24 22:36
  */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class User implements Serializable {  // 对象一般都要序列化
+@Builder
+public class Company {
     private String name;
-
-    private Integer age;
+    private String address;
 }
